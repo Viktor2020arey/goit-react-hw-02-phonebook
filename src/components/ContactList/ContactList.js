@@ -7,7 +7,7 @@ function ContactList({ contacts, onDeleteContact }) {
     <ul className={styles.list}>
       {contacts.map(({ id, name, number }) => (
         <li className={styles.item} key={id}>
-          <p className={styles.info}>
+          <p className={styles.text}>
             {name}: {number}
           </p>
           <button
